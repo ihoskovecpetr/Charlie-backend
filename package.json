@@ -1,0 +1,72 @@
+{
+  "name": "rrssr",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start-build": "webpack -w & nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "nodemon": "^1.12.5",
+    "webpack": "^3.10.0",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "css-loader": "^2.1.1",
+    "dateformat": "^3.0.3",
+    "debug": "~2.6.9",
+    "email-templates": "^5.0.4",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.2",
+    "fs": "0.0.1-security",
+    "googleapis": "^38.0.0",
+    "http-errors": "~1.6.2",
+    "ignore-styles": "^5.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.13",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "nodemon": "^1.18.10",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.8.6",
+    "react-router": "^3.2.1",
+    "react-router-dom": "^5.0.0",
+    "react-star-rating-component": "^1.4.1",
+    "request": "^2.88.0",
+    "serialize-javascript": "^1.4.0",
+    "serve-index": "^1.9.1",
+    "style-loader": "^0.23.1",
+    "underscore": "^1.9.1"
+  },
+  "proxy": "http://localhost:3003"
+}
