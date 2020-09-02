@@ -42,7 +42,7 @@
     "express": "^4.16.2",
     "express-handlebars": "^3.0.2",
     "fs": "0.0.1-security",
-    "googleapis": "^38.0.0",
+    "googleapis": "^39.1.0",
     "http-errors": "~1.6.2",
     "ignore-styles": "^5.0.1",
     "isomorphic-fetch": "^2.2.1",
